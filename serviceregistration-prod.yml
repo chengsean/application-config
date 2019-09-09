@@ -1,16 +1,12 @@
 #eureka生产环境配置
-spring: 
-    profiles: 
-        active: prod
-eureka: 
-    instance: 
-        hostname: 
-            localhost
-    client: 
-        serviceUrl: 
-            defaultZone: 
-                http://${eureka.instance.hostname}:${server.port}/eureka/
-        register-with-eureka: 
-            false
-        fetch-registry: 
-            false
+spring:
+  profiles:
+    active: prod
+eureka:
+    instance:
+        hostname: localhost
+    client:
+        serviceUrl:
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+        register-with-eureka: false
+        fetch-registry: false

@@ -1,8 +1,8 @@
 ﻿# eureka客户端开发环境配置
 eureka: 
-    client: 
-        region: 
-            default
+  client: 
+    region: 
+      default
 # 客户端拉取服务注册信息间隔时间,默认30。配置此值是为了了解其作用
 eureka: 
     client: 
