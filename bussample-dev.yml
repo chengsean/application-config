@@ -1,4 +1,4 @@
 user:
-    id: 256
-    name: chengsean
+    userId: 512
+    username: chengsean
     password: helloworld
